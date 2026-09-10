@@ -1,14 +1,20 @@
-# WORKING DRAFT — NOT FOR APPROVAL
+# DRAFT FOR INTERNAL REVIEW (STREAM OWNER INPUT) — NOT FOR APPROVAL
 
 **Document type:** Product Breakdown Structure (PBS)
 **Project:** TMR Modernisation — Advance Team backlog
 **Prepared by:** project-document-producer (drafting only — no endorsement, approval, or assurance implied)
-**Date:** 2026-09-10
-**Document status:** working draft. This is an early structuring aid to support
-the governance rule below — it is **not** a controlled product breakdown
-structure, not a work package, and not authorised for delivery. No Product
-Descriptions exist yet for any item listed. Do not use this document as
-authority to start work.
+**Date:** 2026-09-10 (amended 2026-09-10 following independent assurance review)
+**Document status:** Reviewed by independent-assurance-reviewer; findings
+F-001 to F-004 logged at governance/findings-log.md and addressed in this
+amendment (see Section 5). Status upgraded from "working draft" to "draft
+for internal review" — this document is now ready to circulate to stream
+owners (Recruitment, Rego API/NEVDIS/Partner Integration, Project
+tooling/Enabling Services, Security resourcing) for their input and
+correction. It remains **not** a controlled product breakdown structure,
+not a work package, and not authorised for delivery, and it is **not** a
+governance submission and does not authorise or approve any work. No
+Product Descriptions exist yet for any item listed. Do not use this
+document as authority to start work.
 
 ---
 
@@ -20,11 +26,19 @@ method-tailoring-practitioner analysis) into a product hierarchy, using only
 items named in the source material. It exists to support — not bypass — the
 governance rule stated verbatim in the source email:
 
-> "nothing proceeds without a product, product description and a work
-> package that clearly defines its scope, derivation, skills, quality,
-> acceptance criteria etc. If it's not defined it's not going to get
-> authorised to proceed."
+> "General rule is that noting [sic — source email reads "noting"; sense
+> requires "nothing," corrected here in substance discussion but reproduced
+> as written in the quotation itself] proceeds without a product, product
+> description and a work package that clearly defines its scope,
+> derivation, skills, quality, acceptance criteria etc. If it's not defined
+> it's not going to get authorised to proceed."
 > — Glenn Walker, Program Director, email "RE: Advance Team Planning", 9 Sep 2026
+
+(Read as intended: "**nothing** proceeds without a product, product
+description and a work package..." — the source email contains a typo
+("noting" for "nothing"); this document treats the evident intended meaning
+as the governance rule in force, consistent with how "Graphana [sic]" is
+handled elsewhere in this document.)
 
 No item in this document currently meets that bar. Every item below still
 needs a Product Description and a Work Package before it can be authorised.
@@ -40,6 +54,20 @@ needs a Product Description and a Work Package before it can be authorised.
 
 No other documents were consulted. Nothing below is invented beyond what
 these sources state.
+
+**Source line coverage (Advance Team.md, 23 lines):** every line was
+reviewed. Lines 3, 4, 6, 7, 8, 9, 10, 12–23 are mapped to a Level 3 item (or
+a stream-level note) above. The following lines are **not** mapped to a
+product item because they are meta-instructions, framing text, or blank,
+not candidate products, and are recorded here so their exclusion is
+explicit rather than silent:
+- Line 1: "Advance Team items" — document title, not content.
+- Line 2: "What project products can we get started on" — framing question
+  for the whole note, not itself a product.
+- Line 5: "Write the work package" — a meta-instruction/action (an instance
+  of the governance rule in Section 0: define the work package), not a
+  product or product item in its own right.
+- Line 11: blank line (separator).
 
 ## 2. Level 0 — Advance Team Backlog (parent)
 
@@ -67,8 +95,12 @@ assume Team Manager, Senior User, or any other role for either.
 
 ### Level 2 — Recruitment activity
 - Level 3: Evaluation panel
-  - Source note: "Evaluation panel to be formed" — panel membership, scope,
-    and roles TO BE CONFIRMED
+  - Source note (email, Glenn Walker): "I will take the lead on the key
+    roles we are going to get out, including formation of evaluation panels
+    etc." (sources/modernisation/RE_ Advance Team Planning.msg, recovered
+    body text, paragraph beginning "With regards to recruitment") — panel
+    membership, scope, and roles TO BE CONFIRMED; no target date or
+    selection criteria stated
 - Level 3: Candidate/role pipeline
   - Source note: "All recruitment can kick off from next week" (Advance
     Team.md, line 3) — which roles, how many, for which stream(s) is TO BE
@@ -86,9 +118,20 @@ satisfy the governance rule quoted in Section 0.
 **Level 1:** Rego API / NEVDIS / Partner Integration
 **Owner (source-stated):** Lance Mase ("Lance to complete" scope
 ring-fencing; owns completing product groupings/flow). Support: Christian
-van den Bosch (Tractix) — role/contribution not further specified in source.
+van den Bosch (Tractix) — per the email: "Product descriptions to be
+developed for all products @Christian van den Bosch can you link Lance to
+the product register please so he can define these." This is a specific,
+time-bound action (link Lance Mase to an existing product register so
+product descriptions can be defined), not an unspecified supporting role.
 **Team Manager:** TO BE CONFIRMED
-**Product Description:** TO BE CONFIRMED — none exists for any item below
+**Product Description:** TO BE CONFIRMED — none exists yet for any item
+below. Note, however, that the email indicates **a product register already
+exists** and Christian van den Bosch is to provide Lance Mase with access to
+it; this document's repeated "no Product Description exists" statements
+refer to Product Descriptions for the specific items listed below, not to
+the absence of a product register mechanism. Whether that existing register
+is populated, current, or covers these items is not stated in source and is
+TO BE CONFIRMED.
 
 ### Level 2 — Rego API
 - Level 3: Rego API product structure
@@ -290,8 +333,31 @@ all four streams above and are not invented here:
 
 ## 5. Document status and next steps
 
-**Status:** working draft. Not reviewed by independent-assurance-reviewer.
-Not for approval. Not authority to commence work on any item listed.
+**Status:** Draft for internal review. Reviewed once by
+independent-assurance-reviewer (2026-09-10); findings F-001 to F-004
+recorded at governance/findings-log.md. All four findings have been
+addressed in this amendment:
+
+- F-001 (Stream 1, evaluation panel): citation corrected to the verbatim
+  source quote with location reference.
+- F-002 (Stream 2, Christian van den Bosch): role corrected to reflect the
+  specific action in the email (linking Lance Mase to the existing product
+  register), and the existence of that register noted.
+- F-003 (Section 0, governance quote): the source email's "noting"/"nothing"
+  typo is now flagged with a correction note, consistent with the
+  "Graphana [sic]" treatment elsewhere in this document.
+- F-004 (source line coverage): Section 1 now states which Advance Team.md
+  lines were excluded as meta-instructions/framing/blank (lines 1, 2, 5,
+  11) and confirms all 23 lines were reviewed.
+
+This amendment has not itself been re-reviewed by
+independent-assurance-reviewer; that re-review, if required, is a separate
+step. Findings F-001–F-004 remain permanently on the record at
+governance/findings-log.md regardless of this amendment.
+
+This document is now ready to **circulate to stream owners for input** —
+it is still not for approval, still not a governance submission, and still
+not authority to commence work on any item listed.
 
 Per the governance rule quoted in Section 0, no item in this PBS may be
 authorised to proceed until it has: a defined product, a Product
